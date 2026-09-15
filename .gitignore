@@ -1,0 +1,36 @@
+# Environment/config secrets
+.env
+.env.*
+!.env.example
+
+# Build directories
+build/
+out/
+cmake-build-*/
+.venv/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# misc files
+*.pgm

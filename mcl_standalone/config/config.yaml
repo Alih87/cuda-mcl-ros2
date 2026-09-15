@@ -1,0 +1,16 @@
+map:
+  MAP_SIZE: 100
+  MAP_RESOLUTION: 50  # centimeters / px
+  OBSTACLE_DENSITY: 1   # 0, 1, 2, 3
+  OBSTACLE_SIZE_RANGE: 3  # 0 ~ (MAP_SIZE // 2)
+  STATE_DIM: 3
+
+color:
+  AGENT: 128
+  OBSTACLE: 0
+  FREE: 255
+  UNEXPLORED: 75
+
+lidar:
+  N_RAYS: 1500
+  RADIUS: 1000   # in centimeters
